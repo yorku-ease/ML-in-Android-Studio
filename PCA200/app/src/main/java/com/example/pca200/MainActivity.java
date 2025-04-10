@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Button selectButton = findViewById(R.id.selectButton);
 
         try {
-            interpreter = new Interpreter(loadModelFile("model_pca500.tflite"));
+            interpreter = new Interpreter(loadModelFile("model_pca200.tflite"));
         } catch (IOException e) {
             e.printStackTrace();
         }
